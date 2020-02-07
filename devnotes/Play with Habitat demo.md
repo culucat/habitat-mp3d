@@ -74,7 +74,7 @@ JPEGs can't represent an alpha channel. Save as other format like PNG.
 Generate gif from a series of images  
 ```
 brew install ffmpeg
-ffmpeg -pattern_type glob -framerate 9 -i 'episode58311-*.png' episode58311.gif  
+ffmpeg -pattern_type glob -framerate [int] -i '[file prefix]-*.png' [output file name].gif  
 ```
 
 ## Useful Links
