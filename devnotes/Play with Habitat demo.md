@@ -54,7 +54,8 @@ print("scene:", env.episodes[i].scene_id)
 ```
 
 ## Issues and Tips  
-1.  Install matplotlib
+1.  
+Install matplotlib
 ```
 conda install -c conda-forge matplotlib  
 ```
